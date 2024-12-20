@@ -1,0 +1,56 @@
+[
+    {
+        "date": "2024/12/20",
+        "time": "13:38:32 ",
+        "vendor": "FAMILYMART ",
+        "amount": 550
+    },
+    {
+        "date": "2024/12/20",
+        "time": "00:12:30 ",
+        "vendor": "FAMILYMART ",
+        "amount": 565
+    },
+    {
+        "date": "2024/12/19",
+        "time": "21:12:52 ",
+        "vendor": "TEPCO ",
+        "amount": 5646
+    },
+    {
+        "date": "2024/12/19",
+        "time": "19:45:48 ",
+        "vendor": "NIKUNOHANAMASA SHINNIHO ",
+        "amount": 1358
+    },
+    {
+        "date": "2024/12/19",
+        "time": "16:09:26 ",
+        "vendor": "FAMILYMART ",
+        "amount": 362
+    },
+    {
+        "date": "2024/12/19",
+        "time": "15:43:47 ",
+        "vendor": "SEVEN-ELEVEN ",
+        "amount": 724
+    },
+    {
+        "date": "2024/12/18",
+        "time": "13:37:37 ",
+        "vendor": "BANKOKUPONI-SHIYOKUDO I ",
+        "amount": 900
+    },
+    {
+        "date": "2024/12/17",
+        "time": "19:55:39 ",
+        "vendor": "NIKUNOHANAMASA SHINNIHO ",
+        "amount": 152
+    },
+    {
+        "date": "2024/12/17",
+        "time": "14:05:29 ",
+        "vendor": "NATARA-JI ",
+        "amount": 1300
+    }
+]

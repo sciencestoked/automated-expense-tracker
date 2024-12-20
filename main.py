@@ -1,7 +1,7 @@
 # main.py
 
 from modules_folder.auth import authenticate_gmail
-from modules_folder.fetcher import fetch_jdebit_emails
+from modules_folder.fetcher import fetch_email_data
 from modules_folder.save_utils import save_to_csv, save_to_json
 
 if __name__ == '__main__':
@@ -9,7 +9,7 @@ if __name__ == '__main__':
     service = authenticate_gmail()
     
     # Fetch JDebit emails
-    extracted_data = fetch_jdebit_emails(service)
+    extracted_data = fetch_email_data(service)
     
     if extracted_data:
         # Print extracted data

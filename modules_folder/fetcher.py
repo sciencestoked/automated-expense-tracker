@@ -64,7 +64,8 @@ def fetch_email_data(service, days=None, start_date=None, end_date=None):
                 'date': date_val,
                 'time': time_val,
                 'vendor': vendor,
-                'amount': amount
+                'amount': amount,                
+                'category':'Select category'
             })
 
     # Process manual expense emails from personal account (s-singhal@ugo.plus)
@@ -93,7 +94,8 @@ def fetch_email_data(service, days=None, start_date=None, end_date=None):
                 'date': date_str,
                 'time': time_str,
                 'vendor': vendor_name,
-                'amount': amount_value
+                'amount': amount_value,
+                'category':'Select category'
             })
     
     print(f'Total time for API: {time.time() - now}')

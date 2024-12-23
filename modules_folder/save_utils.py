@@ -59,7 +59,7 @@ def save_to_csv_update(data, days=None, base_dir='./data/csvs/'):
         existing_data_df = pd.read_csv(csv_file)
         
         # Merge new data with existing data, avoiding duplicates by 'date' and 'time'
-        combined_df = pd.concat([existing_data_df, new_data_df]).drop_duplicates(subset=['date', 'time'], keep='last')
+        combined_df = pd.concat([existing_data_df, new_data_df]).drop_duplicates(subset=['date', 'time'], keep='first')
     else:
         combined_df = new_data_df
     

@@ -1,5 +1,4 @@
 # main.py
-import streamlit as st
 from modules_folder.csv_dashboard import display_csv_dashboard
 
 from modules_folder.auth import authenticate_gmail
@@ -24,6 +23,7 @@ if __name__ == '__main__':
 
         # Set your CSV file path here
         csv_file_path = './data/csvs/All_expenses_till_now_expenses.csv'
+        display_csv_dashboard(csv_file_path)
 
         # Display the dashboard
         display_csv_dashboard(csv_file_path)

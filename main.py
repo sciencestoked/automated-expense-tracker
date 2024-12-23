@@ -1,15 +1,15 @@
 # main.py
 
-from modules_folder.auth import authenticate_gmail
+from modules_folder.auth import authenticate_gmail_and_sheets
 from modules_folder.fetcher import fetch_email_data
 from modules_folder.save_utils import save_to_csv_force, save_to_csv_update, save_to_json  # noqa: F401
 
 if __name__ == '__main__':
     # Authenticate and get Gmail service
-    service = authenticate_gmail()
+    gmail_service, sheets_client = authenticate_gmail_and_sheets()
     
     # Fetch JDebit emails
-    extracted_data = fetch_email_data(service)
+    extracted_data = fetch_email_data(gmail_service)
     
     if extracted_data:
         # Print extracted data

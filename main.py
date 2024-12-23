@@ -13,8 +13,8 @@ if __name__ == '__main__':
     
     if extracted_data:
         # Print extracted data
-        for x in extracted_data:
-            print(f' Date : {x['date']} \n Time : {x['time']} \n Vendor : {x['vendor']} \n Amount : {x['amount']} \n- - - - - - - - - - - - - - - - -\n')
+        # for x in extracted_data:
+        #     print(f' Date : {x['date']} \n Time : {x['time']} \n Vendor : {x['vendor']} \n Amount : {x['amount']} \n- - - - - - - - - - - - - - - - -\n')
         
         # Save to CSV and JSON
         save_to_csv_update(extracted_data)

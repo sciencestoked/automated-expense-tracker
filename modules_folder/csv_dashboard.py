@@ -11,6 +11,9 @@ def save_csv(df, csv_file):
     """Save the DataFrame back to the specified CSV file."""
     df.to_csv(csv_file, index=False)
 
+# Predefined list of categories for the dropdown
+CATEGORY_LIST = ['', 'Food', 'Transport', 'Grocery', 'Entertainment', 'Other']
+
 # Function to display the CSV data in an interactive dashboard
 def display_csv_dashboard(csv_file):
     """Display the CSV file data in a Streamlit dashboard with edit functionality."""
@@ -22,15 +25,20 @@ def display_csv_dashboard(csv_file):
     st.write("### CSV Data")
     st.dataframe(df)
     
-    # Allow users to edit the 'category' column
+    # Allow users to edit the 'category' column using a dropdown
     st.write("### Edit Categories")
     
     # Dictionary to hold the updated categories
     category_editors = {}
     
-    # Create input fields for each row in the 'category' column
+    # Create dropdowns for each row in the 'category' column
     for idx, row in df.iterrows():
-        category_editors[idx] = st.text_input(f"Edit category for row {idx+1}", row['category'], key=idx)
+        category_editors[idx] = st.selectbox(
+            f"Select category for row {idx+1}",
+            CATEGORY_LIST,
+            index=CATEGORY_LIST.index(row['category']) if row['category'] in CATEGORY_LIST else 0,
+            key=idx
+        )
     
     # Save the changes when the button is clicked
     if st.button('Save Changes'):

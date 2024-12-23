@@ -2,7 +2,7 @@
 
 from modules_folder.auth import authenticate_gmail
 from modules_folder.fetcher import fetch_email_data
-from modules_folder.save_utils import save_to_csv, save_to_json
+from modules_folder.save_utils import save_to_csv_force, save_to_csv_update, save_to_json  # noqa: F401
 
 if __name__ == '__main__':
     # Authenticate and get Gmail service
@@ -17,7 +17,7 @@ if __name__ == '__main__':
             print(f' Date : {x['date']} \n Time : {x['time']} \n Vendor : {x['vendor']} \n Amount : {x['amount']} \n- - - - - - - - - - - - - - - - -\n')
         
         # Save to CSV and JSON
-        save_to_csv(extracted_data)
+        save_to_csv_update(extracted_data)
         save_to_json(extracted_data)
     else:
         print("No JDebit data to save.")

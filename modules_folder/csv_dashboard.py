@@ -12,7 +12,7 @@ def save_csv(df, csv_file):
     df.to_csv(csv_file, index=False)
 
 # Predefined list of categories for the dropdown
-CATEGORY_LIST = ['', 'Food', 'Transport', 'Grocery', 'Entertainment', 'Other']
+CATEGORY_LIST = [ 'Select category', 'Food', 'Transport', 'Grocery', 'Entertainment', 'Other']
 
 # Function to display the CSV data in an interactive dashboard
 def display_csv_dashboard(csv_file):
@@ -43,7 +43,8 @@ def display_csv_dashboard(csv_file):
     # Save the changes when the button is clicked
     if st.button('Save Changes'):
         for idx, new_category in category_editors.items():
-            df.at[idx, 'category'] = new_category  # Update the category in the dataframe
+            # If the user selects "Select Category", replace it with None or empty string before saving
+            df.at[idx, 'category'] = new_category if new_category != "Select Category" else None
         
         # Save the updated dataframe back to the CSV
         save_csv(df, csv_file)

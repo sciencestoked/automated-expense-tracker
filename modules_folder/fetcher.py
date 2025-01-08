@@ -55,6 +55,7 @@ def fetch_email_data(service, days=None, start_date=None, end_date=None):
         if date_time and vendor and amount:
             date_time = date_time.group(1)
             date_val, time_val = date_time.split(' ', 1)
+            date_val = date_val.replace("/", "-")
             
             vendor = vendor.group(1)
             amount = int(amount.group(1))

@@ -2,6 +2,21 @@ import os
 import pandas as pd
 from datetime import datetime, timedelta
 
+
+
+
+
+def df_sorter(df):
+    df['datetime'] = pd.to_datetime(df['date'] + ' ' + df['time'])
+    df_sorted = df.sort_values(by='datetime')
+    df_sorted = df_sorted.drop(columns=['datetime'])
+    # print(df_sorted)
+    return df_sorted
+
+
+
+
+
 # Helper function to get the filename based on the date range
 def get_date_range_filename(days=None):
     if not days:
@@ -29,6 +44,7 @@ def save_to_csv_force(data, days=None, base_dir='./data/csvs/'):
     
     # Convert list of dicts to pandas DataFrame
     df = pd.DataFrame(data)
+    df = df_sorter(df)
     
     # Get the appropriate filename based on the date range
     filename_suffix = get_date_range_filename(days)
@@ -38,6 +54,10 @@ def save_to_csv_force(data, days=None, base_dir='./data/csvs/'):
     df.to_csv(csv_file, index=False)
     
     print(f"Data forcefully saved to {csv_file}")
+
+
+
+
 
 # Function to update only with new rows (no overwriting of existing rows)
 def save_to_csv_update(data, days=None, base_dir='./data/csvs/'):
@@ -62,11 +82,17 @@ def save_to_csv_update(data, days=None, base_dir='./data/csvs/'):
         combined_df = pd.concat([existing_data_df, new_data_df]).drop_duplicates(subset=['date', 'time'], keep='first')
     else:
         combined_df = new_data_df
+
+    combined_df = df_sorter(combined_df)
     
     # Save updated data to CSV
     combined_df.to_csv(csv_file, index=False)
     
     print(f"Data updated and saved to {csv_file}")
+
+
+
+
 
 # Function to forcefully save all data to JSON
 def save_to_json(data, days=None, base_dir='./data/jsons/'):
@@ -80,6 +106,6 @@ def save_to_json(data, days=None, base_dir='./data/jsons/'):
     json_file = os.path.join(base_dir, f'{filename_suffix}_expenses.json')
     
     # Save data as JSON
-    pd.DataFrame(data).to_json(json_file, orient='records', indent=4)
+    df_sorter(pd.DataFrame(data)).to_json(json_file, orient='records', indent=4)
     
     print(f"Data saved to {json_file}")

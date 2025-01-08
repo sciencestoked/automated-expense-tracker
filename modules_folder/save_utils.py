@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 def df_sorter(df):
     df['datetime'] = pd.to_datetime(df['date'] + ' ' + df['time'])
-    df_sorted = df.sort_values(by='datetime')
+    df_sorted = df.sort_values(by='datetime', ascending=False)
     df_sorted = df_sorted.drop(columns=['datetime'])
     # print(df_sorted)
     return df_sorted

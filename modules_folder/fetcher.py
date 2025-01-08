@@ -62,8 +62,8 @@ def fetch_email_data(service, days=None, start_date=None, end_date=None):
             
             # Add the extracted JDebit data
             extracted_data.append({
-                'date': date_val,
-                'time': time_val,
+                'date': date_val.strip(),
+                'time': time_val.strip(),
                 'vendor': vendor,
                 'amount': amount,                
                 'category':'Select category'
@@ -92,8 +92,8 @@ def fetch_email_data(service, days=None, start_date=None, end_date=None):
 
             # Add the extracted manual expense data
             extracted_data.append({
-                'date': date_str,
-                'time': time_str,
+                'date': date_str.strip(),
+                'time': time_str.strip(),
                 'vendor': vendor_name,
                 'amount': amount_value,
                 'category':'Select category'

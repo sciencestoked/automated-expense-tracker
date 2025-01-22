@@ -1,5 +1,341 @@
 [
     {
+        "date":"2025-01-22",
+        "time":"07:39:48",
+        "vendor":"JR EAST MOBILE SUICA ",
+        "amount":1000,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-22",
+        "time":"07:39:21",
+        "vendor":"JR EAST MOBILE SUICA ",
+        "amount":1000,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-22",
+        "time":"00:55:16",
+        "vendor":"MERUKARI ",
+        "amount":8500,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-21",
+        "time":"20:49:30",
+        "vendor":"KIYUUSHIYUUJIYANGARAAKIHA ",
+        "amount":5400,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-20",
+        "time":"21:06:57",
+        "vendor":"NIKUNOHANAMASA SHINNIHO ",
+        "amount":978,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-20",
+        "time":"13:58:40",
+        "vendor":"SEVEN-ELEVEN ",
+        "amount":884,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-19",
+        "time":"22:07:14",
+        "vendor":"JR EAST MOBILE SUICA ",
+        "amount":1000,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-19",
+        "time":"20:28:07",
+        "vendor":"SAIZERIYA\/NFC ",
+        "amount":1500,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-19",
+        "time":"19:11:24",
+        "vendor":"DKELLY ASAKUSATEN ",
+        "amount":858,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-19",
+        "time":"15:52:24",
+        "vendor":"SEVEN-ELEVEN ",
+        "amount":668,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-18",
+        "time":"22:01:05",
+        "vendor":"NAKAU ",
+        "amount":1910,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-18",
+        "time":"19:59:11",
+        "vendor":"NIKUNOHANAMASA SHINNIHO ",
+        "amount":1319,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-18",
+        "time":"16:29:13",
+        "vendor":"AMAZON.CO.JP ",
+        "amount":1999,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-18",
+        "time":"15:09:51",
+        "vendor":"TEMU.COM ",
+        "amount":2305,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-18",
+        "time":"14:53:08",
+        "vendor":"AMAZON.CO.JP ",
+        "amount":1911,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-17",
+        "time":"23:27:00",
+        "vendor":"NIKUNOHANAMASAPURASU OI ",
+        "amount":152,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-17",
+        "time":"13:28:56",
+        "vendor":"SEVEN-ELEVEN ",
+        "amount":537,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-17",
+        "time":"03:53:14",
+        "vendor":"AMAZON.CO.JP ",
+        "amount":4999,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-16",
+        "time":"17:30:05",
+        "vendor":"SEVEN-ELEVEN ",
+        "amount":171,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-16",
+        "time":"15:09:40",
+        "vendor":"Katsu lunch",
+        "amount":700,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-15",
+        "time":"20:37:04",
+        "vendor":"DAISO ",
+        "amount":555,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-15",
+        "time":"17:23:39",
+        "vendor":"SEVEN-ELEVEN ",
+        "amount":453,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-15",
+        "time":"13:38:02",
+        "vendor":"cash withdrawal",
+        "amount":10000,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-15",
+        "time":"13:37:35",
+        "vendor":"PayPay top up",
+        "amount":10000,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-15",
+        "time":"13:29:12",
+        "vendor":"shiv Shakti lunch Amount",
+        "amount":800,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-14",
+        "time":"23:57:19",
+        "vendor":"WELCIA AKIHABARAEKIMAETEN ",
+        "amount":418,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-14",
+        "time":"22:28:38",
+        "vendor":"",
+        "amount":309,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-14",
+        "time":"22:26:04",
+        "vendor":"Daiso Amount",
+        "amount":440,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-14",
+        "time":"12:50:32",
+        "vendor":"HOKEIKAKUGIYOZASAKABA ",
+        "amount":900,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-13",
+        "time":"18:56:59",
+        "vendor":"KIYUUSHIYUUJIYANGARAAKIHA ",
+        "amount":3050,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-13",
+        "time":"18:05:04",
+        "vendor":"SEVEN-ELEVEN ",
+        "amount":352,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-12",
+        "time":"23:25:46",
+        "vendor":"AMAZON.CO.JP ",
+        "amount":550,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-12",
+        "time":"22:57:24",
+        "vendor":"KONA KABUKICHIYOTEN ",
+        "amount":2690,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-12",
+        "time":"21:19:22",
+        "vendor":"FAMILYMART ",
+        "amount":220,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-12",
+        "time":"19:53:33",
+        "vendor":"FAMILYMART ",
+        "amount":756,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-12",
+        "time":"01:11:56",
+        "vendor":"AMAZON.CO.JP ",
+        "amount":3399,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-11",
+        "time":"23:58:39",
+        "vendor":"JR EAST MOBILE SUICA ",
+        "amount":3000,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-11",
+        "time":"22:56:24",
+        "vendor":"FAMILYMART ",
+        "amount":684,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-11",
+        "time":"21:53:27",
+        "vendor":"KIYUUSHIYUUJIYANGARAAKIHA ",
+        "amount":3100,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-11",
+        "time":"20:51:09",
+        "vendor":"SEVEN-ELEVEN ",
+        "amount":352,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-10",
+        "time":"20:29:25",
+        "vendor":"AEON GROUP ",
+        "amount":140,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-10",
+        "time":"20:00:05",
+        "vendor":"JR EAST MOBILE SUICA ",
+        "amount":1000,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-10",
+        "time":"14:39:28",
+        "vendor":"AMAZON.CO.JP ",
+        "amount":999,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-10",
+        "time":"13:59:12",
+        "vendor":"HOKEIKAKUGIYOZASAKABA ",
+        "amount":880,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-09",
+        "time":"22:43:46",
+        "vendor":"LAWSON ",
+        "amount":220,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-09",
+        "time":"15:01:58",
+        "vendor":"Office coffee",
+        "amount":250,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-09",
+        "time":"15:01:19",
+        "vendor":"Katsu Place",
+        "amount":750,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-09",
+        "time":"11:59:21",
+        "vendor":"FAMILYMART ",
+        "amount":207,
+        "category":"Select category"
+    },
+    {
         "date":"2025-01-07",
         "time":"02:21:28",
         "vendor":"AMAZON.CO.JP ",
@@ -382,300 +718,6 @@
         "time":"05:20:40",
         "vendor":"AMAZON.CO.JP ",
         "amount":498,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-14",
-        "time":"20:54:03",
-        "vendor":"DAISO ",
-        "amount":1765,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-14",
-        "time":"20:01:17",
-        "vendor":"DECKS TOKYO BEACH ",
-        "amount":1540,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-14",
-        "time":"19:49:39",
-        "vendor":"DECKS TOKYO BEACH ",
-        "amount":350,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-13",
-        "time":"22:30:56",
-        "vendor":"NIKUNOHANAMASAPURASU OI ",
-        "amount":421,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-13",
-        "time":"22:20:01",
-        "vendor":"KONAOOIMATITEN ",
-        "amount":4510,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-13",
-        "time":"15:44:07",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":230,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-13",
-        "time":"11:50:22",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":183,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-13",
-        "time":"10:26:12",
-        "vendor":"DAILY YAMAZAKI ",
-        "amount":340,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-12",
-        "time":"13:37:14",
-        "vendor":"SUKIYA ",
-        "amount":420,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-12",
-        "time":"07:28:29",
-        "vendor":"NIKUNOHANAMASA SHINNIHO ",
-        "amount":204,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-11",
-        "time":"13:57:16",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":149,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-11",
-        "time":"10:00:55",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":276,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-11",
-        "time":"09:22:17",
-        "vendor":"AMAZON.CO.JP ",
-        "amount":5558,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-10",
-        "time":"16:16:50",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":159,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-09",
-        "time":"19:48:46",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":575,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-09",
-        "time":"16:47:04",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":149,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-09",
-        "time":"13:09:39",
-        "vendor":"HOKEIKAKUGIYOZASAKABA ",
-        "amount":880,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-07",
-        "time":"23:26:07",
-        "vendor":"NIKUNOHANAMASAPURASU OI ",
-        "amount":779,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-07",
-        "time":"11:43:34",
-        "vendor":"FAMILYMART ",
-        "amount":646,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-07",
-        "time":"00:35:30",
-        "vendor":"NIKUNOHANAMASAPURASU OI ",
-        "amount":1790,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-06",
-        "time":"20:10:41",
-        "vendor":"NIKUNOHANAMASAPURASU OI ",
-        "amount":429,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-06",
-        "time":"10:52:43",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":276,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-05",
-        "time":"13:25:33",
-        "vendor":"SUKIYA ",
-        "amount":380,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-05",
-        "time":"00:17:55",
-        "vendor":"FAMILYMART ",
-        "amount":332,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-05",
-        "time":"00:10:49",
-        "vendor":"NIKUNOHANAMASA SHINNIHO ",
-        "amount":558,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-03",
-        "time":"17:03:06",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":160,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-03",
-        "time":"13:41:03",
-        "vendor":"FAMILYMART ",
-        "amount":537,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-03",
-        "time":"13:05:40",
-        "vendor":"SUKIYA ",
-        "amount":570,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-02",
-        "time":"23:22:54",
-        "vendor":"AMAZON.CO.JP ",
-        "amount":11387,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-02",
-        "time":"14:42:57",
-        "vendor":"SUKIYA ",
-        "amount":580,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-01",
-        "time":"21:47:23",
-        "vendor":"SUKIYA ",
-        "amount":620,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-01",
-        "time":"20:25:52",
-        "vendor":"DAISO ",
-        "amount":438,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-01",
-        "time":"12:12:00",
-        "vendor":"DAISO ",
-        "amount":445,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-28",
-        "time":"13:05:15",
-        "vendor":"HOKEIKAKUGIYOZASAKABA ",
-        "amount":880,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-28",
-        "time":"12:09:12",
-        "vendor":"AMAZON.CO.JP ",
-        "amount":2355,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-25",
-        "time":"16:18:31",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":100,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-25",
-        "time":"11:17:43",
-        "vendor":"SEVEN-ELEVEN ",
-        "amount":190,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-24",
-        "time":"21:21:27",
-        "vendor":"VEGKITCHEN ",
-        "amount":5800,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-24",
-        "time":"16:46:31",
-        "vendor":"NIKUNOHANAMASA SHINNIHO ",
-        "amount":819,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-24",
-        "time":"13:39:22",
-        "vendor":"MATSUMOTOKIYOSHI ",
-        "amount":349,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-24",
-        "time":"13:26:32",
-        "vendor":"DAISO ",
-        "amount":555,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-11-22",
-        "time":"00:59:54",
-        "vendor":"AMAZON.CO.JP ",
-        "amount":979,
         "category":"Select category"
     }
 ]

@@ -12,7 +12,7 @@ def save_csv(df, csv_file):
     df.to_csv(csv_file, index=False)
 
 # Predefined list of categories for the dropdown
-CATEGORY_LIST = [ 'Select category', 'Food', 'Transport', 'Grocery', 'Entertainment', 'Other']
+CATEGORY_LIST = ['Select category', 'Food', 'Transport', 'Grocery', 'Entertainment', 'Other']
 
 # Function to display the CSV data in an interactive dashboard
 def display_csv_dashboard(csv_file):
@@ -21,30 +21,44 @@ def display_csv_dashboard(csv_file):
     # Load the CSV data
     df = load_csv(csv_file)
     
-    # Display the data in a table
-    st.write("### CSV Data")
-    st.dataframe(df)
-    
-    # Allow users to edit the 'category' column using a dropdown
-    st.write("### Edit Categories")
+    # Display the CSV header
+    st.write("### CSV Data with Editable Categories")
     
     # Dictionary to hold the updated categories
     category_editors = {}
     
-    # Create dropdowns for each row in the 'category' column
+    # Create a header for the table
+    cols = st.columns([1, 2, 2, 2, 3])
+    cols[0].write("Index")
+    cols[1].write("Date")
+    cols[2].write("Time")
+    cols[3].write("Vendor")
+    cols[4].write("Category")
+    
+    # Loop through the DataFrame and create dropdowns for each row
     for idx, row in df.iterrows():
-        category_editors[idx] = st.selectbox(
-            f"Select category for row {idx+1}",
+        cols = st.columns([1, 2, 2, 2, 3])
+        
+        # Display the data from the row in the first few columns
+        cols[0].write(idx + 1)  # Display index number
+        cols[1].write(row['date'])  # Display date
+        cols[2].write(row['time'])  # Display time
+        cols[3].write(row['vendor'])  # Display vendor
+        
+        # Create the dropdown for the category column
+        category_editors[idx] = cols[4].selectbox(
+            " ",  # Provide a placeholder label (can be a space)
             CATEGORY_LIST,
             index=CATEGORY_LIST.index(row['category']) if row['category'] in CATEGORY_LIST else 0,
-            key=idx
+            key=idx,
+            label_visibility="hidden"  # Hide the label for accessibility purposes
         )
     
     # Save the changes when the button is clicked
     if st.button('Save Changes'):
         for idx, new_category in category_editors.items():
             # If the user selects "Select Category", replace it with None or empty string before saving
-            df.at[idx, 'category'] = new_category if new_category != "Select Category" else None
+            df.at[idx, 'category'] = new_category if new_category != "Select category" else None
         
         # Save the updated dataframe back to the CSV
         save_csv(df, csv_file)

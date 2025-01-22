@@ -1,6 +1,20 @@
 [
     {
         "date":"2025-01-22",
+        "time":"13:57:20",
+        "vendor":"FAMILYMART ",
+        "amount":207,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-22",
+        "time":"13:09:34",
+        "vendor":"Katsu bento",
+        "amount":700,
+        "category":"Select category"
+    },
+    {
+        "date":"2025-01-22",
         "time":"07:39:48",
         "vendor":"JR EAST MOBILE SUICA ",
         "amount":1000,
@@ -711,13 +725,6 @@
         "time":"16:53:42",
         "vendor":"SEVEN-ELEVEN ",
         "amount":602,
-        "category":"Select category"
-    },
-    {
-        "date":"2024-12-15",
-        "time":"05:20:40",
-        "vendor":"AMAZON.CO.JP ",
-        "amount":498,
         "category":"Select category"
     }
 ]

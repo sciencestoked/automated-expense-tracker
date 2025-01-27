@@ -13,7 +13,7 @@ if __name__ == "__main__":
     csv_file_path = "./data/csvs/All_expenses_till_now_expenses.csv"
     spreadsheet_name = "Budgeting"
     sheet_name = "All_expenses_till_now_expenses"
-    output_csv_file = "./data/csvs/latest_sheet_data.csv"
+    output_csv_file = "./data/csvs/All_expenses_till_now_expenses.csv"
 
     # Authenticate and get Gmail service and Google Sheets client
     gmail_service, sheets_client = authenticate_gmail_and_sheets()
